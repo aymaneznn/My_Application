@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="87dp"
+        android:layout_height="126dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_asm_web"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="default"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/item_icon"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/item_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:text="default"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/item_icon"
+        app:layout_constraintTop_toBottomOf="@+id/item_phone"></TextView>
+
+    <TextView
+        android:id="@+id/item_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:text="default"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/item_icon"
+        app:layout_constraintTop_toBottomOf="@+id/item_name"></TextView>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_margin="50dp"
+        tools:ignore="MissingConstraints">
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

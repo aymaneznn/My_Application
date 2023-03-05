@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341504439807",
+    "project_id": "my-application-c7db4",
+    "storage_bucket": "my-application-c7db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341504439807:android:a8fb92d0a2560edf4663ca",
+        "android_client_info": {
+          "package_name": "fr.aymane.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341504439807-f3b0spo2cd88djimgidggq3p0calop6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJIh-xafR0PaPNlGC_9iBoCORjcC4yz4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341504439807-f3b0spo2cd88djimgidggq3p0calop6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
